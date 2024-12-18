@@ -39,6 +39,9 @@
           // Бақайдгирии муваффақ
           alert("User registered successfully!");
           console.log(userCredential);
+
+          // Ба Google равона кардан
+          window.location.href = "https://www.google.com";  // равона кардани корбар ба Google
         })
         .catch((error) => {
           // Хато
